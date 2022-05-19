@@ -1,9 +1,9 @@
 import React from 'react';
 import './Header.css';
 import { Grid } from '@mui/material';
-import CabinOutlinedIcon from '@mui/icons-material/CabinOutlined';
-import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-import Avatar from '@mui/material/Avatar';
+// import CabinOutlinedIcon from '@mui/icons-material/CabinOutlined';
+// import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
+// import Avatar from '@mui/material/Avatar';
 
 
 
@@ -21,10 +21,10 @@ return (
     <Grid item xs={2}></Grid>
  
         <div className ="icons">
-    <CabinOutlinedIcon className ="Home"/>
-    <ChatBubbleOutlineOutlinedIcon className="messages"/>
+   
+
         <div className = "avatar">
-    <Avatar chatName= "avatar"/>
+   
     </div>
  
     </div>
