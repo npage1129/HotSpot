@@ -22,10 +22,21 @@ event5 = Event.create(event_name: "Dying Fetus", venue_name: "Summit", date: "Ma
 event6 = Event.create(event_name: "King Jeong & Joel McHale", venue_name: "Bellco Theatre", date: "September 10", time: "8-10pm", longitude: 104.9995 , latitude: 39.7412)
 
 puts "Seeding address"
-address1 = Address.create(address: "1701 Bryant St, Denver, CO 80204" event_id: event1.id)
-address2 = Address.create(address: "1000 Chopper Cir, Denver, CO 80204" event_id: event2.id)
-address3 = Address.create(address: "4655 Humboldt St, Denver, CO 80216" event_id: event3.id)
-address4 = Address.create(address: "18300 W Alameda Pkwy, Morrison, CO 80465" event_id: event4.id)
-address5 = Address.create(address: "1902 Blake St, Denver, CO 80202" event_id: event5.id)
-address6 = Address.create(address: "1100 Stout St, Denver, CO 80204" event_id: event6.id)
+address1 = Address.create(address: "1701 Bryant St, Denver, CO 80204", event_id: event1.id)
+address2 = Address.create(address: "1000 Chopper Cir, Denver, CO 80204", event_id: event2.id)
+address3 = Address.create(address: "4655 Humboldt St, Denver, CO 80216",event_id: event3.id)
+address4 = Address.create(address: "18300 W Alameda Pkwy, Morrison, CO 80465", event_id: event4.id)
+address5 = Address.create(address: "1902 Blake St, Denver, CO 80202", event_id: event5.id)
+address6 = Address.create(address: "1100 Stout St, Denver, CO 80204", event_id: event6.id)
 
+puts "Seeding post"
+post1 = Post.create(user_id: user3.id, event_id: event1.id, img: "https://townsquare.media/site/623/files/2018/04/tailgating-songs.jpg", caption: "At the Luke Combs Tailgate party with my boys!! Don't tell the hubby! shhhh!")
+post2 = Post.create(user_id: user4.id, event_id: event2.id, img: "https://artist-assets.hubbardradio.com/matchboxtwenty-4_v1000.jpg", caption: "Umm did the bassist just blow me a kiss? MatchBox 20 concert is LIT!")
+post3 = Post.create(user_id: user.id, event_id: event.id, img: "https://bloximages.newyork1.vip.townnews.com/wfmz.com/content/tncms/assets/v3/editorial/c/7a/c7a71e39-5473-5f6c-bdd8-cec3f2ca4428/61f39102591bf.image.jpg", caption: "")
+post4 = Post.create(user_id: user.id, event_id: event.id, img: "", caption: "")
+post5 = Post.create(user_id: user.id, event_id: event.id, img: "", caption: "")
+post6 = Post.create(user_id: user.id, event_id: event.id, img: "", caption: "")
+post7 = Post.create(user_id: user.id, event_id: event.id, img: "", caption: "")
+post8 = Post.create(user_id: user.id, event_id: event.id, img: "", caption: "")
+post9 = Post.create(user_id: user.id, event_id: event.id, img: "", caption: "")
+post10 = Post.create(user_id: user.id, event_id: event.id, img: "", caption: "")
