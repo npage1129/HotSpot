@@ -1,13 +1,12 @@
 import React from 'react';
 import './Header.css';
 import { Grid } from '@mui/material';
-// import CabinOutlinedIcon from '@mui/icons-material/CabinOutlined';
-// import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-// import Avatar from '@mui/material/Avatar';
+import Avatar from '@mui/material/Avatar';
 
 
 
 const Header = () => {
+    <div>hello!</div>
 return (
     <div>
         <div className="navBar">
@@ -19,14 +18,15 @@ return (
    <button>Submit</button>
    </Grid>
     <Grid item xs={2}></Grid>
- 
+
         <div className ="icons">
-   
+
 
         <div className = "avatar">
-   
+    <Avatar/>
+    
     </div>
- 
+
     </div>
 </Grid>
 </div>
