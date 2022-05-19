@@ -29,7 +29,7 @@ border-bottom: 1px solid #dbdbdbdb;
 }
 .searchBar{
    display:center;
-   margin-top: 30px;
+   margin-top: 20px;
    margin-right: 7px;
    margin-bottom: 5px;
    padding: 5px;
@@ -46,6 +46,7 @@ font-weight: bold;
 border:1px solid #c1c9cf;
 background-color: #0395f6;
 color: white;
-margin-right: 500px;
+margin-right: 40px;
+
 
 }
