@@ -1,13 +1,9 @@
 {
-  "name": "phase-4-deploying-app-demo",
-  "description": "Build scripts for Heroku",
-  "engines": {
-    "node": "16.x"
-  },
-  "scripts": {
-    "build": "npm install --prefix client && npm run build --prefix client",
-    "clean": "rm -rf public",
-    "deploy": "cp -a client/build/. public/",
-    "heroku-postbuild": "npm run clean && npm run build && npm run deploy"
+  "dependencies": {
+    "actioncable": "^5.2.8",
+    "postgresql": "^0.0.1",
+    "react-actioncable-provider": "^1.0.3",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1"
   }
 }
